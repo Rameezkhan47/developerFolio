@@ -20,11 +20,13 @@ export default function SoftwareSkill() {
                   <img
                     src={flutter}
                     style={{width: "2.8rem", height: "2.8rem"}}
+                    alt=""
                   />
                 ) : skills.skillName === "MongoDB" ? (
                   <img
                     src={mongodb}
                     style={{width: "2.8rem", height: "2.8rem"}}
+                    alt=""
                   />
                 ) : (
                   <i className={skills.fontAwesomeClassname}></i>
