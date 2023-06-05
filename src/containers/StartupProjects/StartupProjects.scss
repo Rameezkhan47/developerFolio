@@ -1,10 +1,15 @@
 @import "../../_globalColor";
 
 .card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
+  min-width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
+
+
+
+
 .card-title {
   color: $titleColor;
   font-size: 22px;
@@ -31,6 +36,7 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  margin-bottom: 10rem;
 }
 
 .project-card-dark {
@@ -38,6 +44,8 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
+  margin-bottom: 3rem;
+
 }
 
 .project-detail {
@@ -50,19 +58,24 @@
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
 .project-image {
-  position: relative;
-  height: 250px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(1, minmax(300px, 0.8fr));
+  gap: 1rem;
+  padding-left: 15%;
 }
+@media (max-width: 660px) {
+  .projects-container {
+    padding-left: 0% ;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+
+  }
+}
+
+
+
 
 .project-card-footer span.project-tag {
   background: $buttonColor;

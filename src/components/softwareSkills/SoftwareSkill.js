@@ -1,6 +1,8 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
+import flutter from "../../assets/images/flutter-svgrepo-com.png";
+import mongodb from "../../assets/images/mongodb-svgrepo-com.svg";
 
 export default function SoftwareSkill() {
   return (
@@ -14,7 +16,21 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {skills.skillName === "Flutter" ? (
+                  <img
+                    src={flutter}
+                    style={{width: "2.8rem", height: "2.8rem"}}
+                    alt="My Image"
+                  />
+                ) : skills.skillName === "MongoDB" ? (
+                  <img
+                    src={mongodb}
+                    style={{width: "2.8rem", height: "2.8rem"}}
+                    alt="My Image"
+                  />
+                ) : (
+                  <i className={skills.fontAwesomeClassname}></i>
+                )}
                 <p>{skills.skillName}</p>
               </li>
             );

@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rameez Khan",
+  title: "Hi all, I'm Rameez",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Mobile Applications (Flutter) and Full Stack Developer having an experience of building Mobile and Web applications with Flutter / JavaScript / Reactjs / Nodejs. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ZBf0iVhyWVRTvlKNna-QlpQvWEG--J8k/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Rameezkhan47",
+  linkedin: "https://www.linkedin.com/in/rameez-m-khan/",
+  gmail: "rameezmuhammadkhan47@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +44,12 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Integration of third party services like Firebase")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,9 +65,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Flutter",
+      fontAwesomeClassname: "icons8-flutter-100"
     },
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -88,10 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -100,10 +90,12 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
+
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "MongoDB",
+      fontAwesomeClassname: "icons8-flutter-100"
     },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -111,10 +103,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +114,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "NED University of Engineering and Technology",
+      logo: require("./assets/images/NEDUET.png"),
+      subHeader: "Bachelor of Engineering in Electrical Engineering",
+      duration: "Dec 2016 - Oct 2020",
+      descBullets: ["CGPA: 3.29"]
     }
   ]
 };
@@ -154,15 +130,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +150,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Associate Software Engineer",
+      company: "HeapStash Global",
+      companylogo: require("./assets/images/heapstash2.jpeg"),
+      date: "March 2023 – Present",
+      desc: "Major Responsibilities include:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Translating UI/UX designs into functional and responsive mobile and web app interfaces.",
+        // "Implementing state management techniques (Provider, GetX) to manage and synchronize app states effectively.",
+        "Writing clean, maintainable, and well-documented code following Flutter's best practices and guidelines.",
+        "Integrating third-party APIs, libraries, and services like firebase to add functionalities such as authentication, push notifications, and payment gateways like Stripe or Paypal",
+        "Troubleshooting and resolving technical issues and bugs."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "HeapStash Global",
+      companylogo: require("./assets/images/heapstash2.jpeg"),
+      date: "March 2023 – Present",
+      desc: "During my internship, I successfully learned Flutter and utilized my skills to create a web application version of an existing mobile app, implementing the MVC (Model-View-Controller) pattern for optimal organization and efficiency. I used state management by incorporating the powerful GetX library. Additionally, I leveraged Firebase for authentication and storage functionalities, guaranteeing secure user access and efficient data management.",
+      descBullets: [
+
+
+        
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Bootcamp-Trainee",
+      company: "Contour Software",
+      companylogo: require("./assets/images/contour.jpeg"),
+      date: "Nov 2022 – Feb 2023",
+      desc: "The 3-month industry led MERN stack bootcamp covers the basics of web development and the MERN stack through hands-on exercises and projects. It includes introduction to web development, MongoDB, ExpressJS, ReactJS, NodeJS, Authentication and Authorization."
     }
   ]
 };
@@ -206,38 +190,104 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Some big projects you have worked </on>
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+
   projects: [
+   
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      images: [
+        require("./assets/images/mob1.png"),
+        require("./assets/images/mob2.png"),
+        require("./assets/images/mob3.png"),
+        require("./assets/images/mob4.png"),
+        require("./assets/images/mob5.png"),
+        require("./assets/images/mob6.png"),
+        require("./assets/images/mob7.png"),
+        require("./assets/images/mob8.png"),
+        require("./assets/images/mob9.png"),
+        require("./assets/images/mob10.png"),
+        require("./assets/images/mob11.png"),
+        require("./assets/images/mob12.png"),
+        require("./assets/images/mob13.png"),
+        require("./assets/images/mob14.png"),
+        require("./assets/images/mob15.png"),
+        require("./assets/images/mob16.png"),
+        require("./assets/images/mob17.png"),
+        require("./assets/images/mob18.png"),
+        require("./assets/images/mob19.png")
+
+        // Add more image paths here
+      ],
+      projectName: "XUXEM Mobile App",
+      projectDesc: "This mobile application is made from flutter with firebase as backend. The app follows MVC pattern and utilises GetX for state management. This application includes features such as Authentication and Authorization, Payment Gateways Stripe and Paypal, Push Notifications. The app used Firebase Cloud Storage as database to store and retrieve user generated content"
+      //   {
+      //     name: "XUXEM Mobile App",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },
+
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      images: [
+        require("./assets/images/web1.png"),
+        require("./assets/images/web2.png"),
+        require("./assets/images/web3.png"),
+        require("./assets/images/web4.png"),
+        require("./assets/images/web5.png"),
+        require("./assets/images/web6.png"),
+        require("./assets/images/web7.png"),
+        require("./assets/images/web8.png"),
+        require("./assets/images/web9.png"),
+        require("./assets/images/web10.png"),
+        require("./assets/images/web11.png"),
+        require("./assets/images/web12.png"),
+        require("./assets/images/web13.png"),
+        require("./assets/images/web14.png"),
+        require("./assets/images/web15.png"),
+        require("./assets/images/web16.png"),
+        require("./assets/images/web17.png")
+
+        // Add more image paths here
+      ],
+      projectName: "XUXEM Web App",
+      projectDesc: "This  application showcases the advantages of reusability and the invaluable role played by design patterns and principles. By adhering to the MVC (Model-View-Controller) pattern for the mobile app component, I was able to effectively segregated Modules, Controllers, and Models from the View, thus enabling me to effortlessly create a distinct user interface (UI) with minimal adjustments to the existing controllers. This approach not only streamlined the development process, but also enhanced the maintainability of the code base, resulting in significantly reduced development time"      
+
+  
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+
+    
+    {
+      images: [
+        require("./assets/images/netflix1.jpg"),
+        require("./assets/images/netflix2.jpg"),
+        require("./assets/images/netflix3.jpg"),
+        require("./assets/images/netflix4.jpg"),
+        require("./assets/images/netflix5.jpg"),
+        require("./assets/images/netflix6.jpg"),
+        require("./assets/images/netflix7.jpg"),
+        require("./assets/images/netflix8.jpg"),
+
+
+        // Add more image paths here
+      ],
+      projectName: "Netflix Clone",
+      projectDesc: "In this project I created a Netflix clone using the MERN (MongoDB, Express.js, React, Node.js) stack along with Redux for state management. The goal of the project was to replicate the functionality and user experience of Netflix while utilizing Redux to manage the application state. This project includes features such as sser authentication and authorisation using firebase authentication API, browse and search for movies and TV shows by name or genre, add/remove movies and TV shows to their watchlist, can like/dislike content. This project utilises the TMDB API to gather information about the movies and TV shows that are available"
     }
+    // Add more project objects here
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -247,58 +297,52 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  // subtitle:
+    // "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "MERN Stack Bootcamp by Techlift at Contour Software",
+      subtitle: "The three month industry led MERN stack bootcamp covers the basics of web development and the MERN stack through hands-on exercises and projects. It includes introduction to web development, MongoDB, ExpressJS, ReactJS, NodeJS, Authentication and Authorization.",
+      image: require("./assets/images/contour.jpeg"),
+      imageAlt: "Contour Logo",
+      footerLink: [
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      subtitle: "A comprehensive course for ReactJS development. The course covers topics such as components and props, state and hooks, forms and events, routing with React Router, advanced hooks, custom hooks, redux, context API, authentication and deployment.",
+      image: require("./assets/images/react.jpeg"),
+      imageAlt: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      footerLink: [
+        {
+          name: "Certification ",
+          url: "https://www.udemy.com/certificate/UC-719678aa-75b5-43f6-8ed6-d26dcf121142/"
+        }
+      ]
+    },
+    {
+      title: "The Web Developer's Bootcamp 2022",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "A detailed course that covers the basics of wide range of topics related to web development, including HTML, CSS, JavaScript, Bootstrap, DOM manipulation, NodeJS, ExpressJS, MongoDB, RESTful APIs, Authentication and Authorization, and Deployment.",
+      image: require("./assets/images/udemy-colt-steele.jpeg"),
+      imageAlt: "The Web Developer's Bootcamp",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.udemy.com/certificate/UC-d1287987-5418-412d-a88a-2f523cdb6424/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +368,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +387,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +400,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 📞"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3482622889",
+  email_address: "rameezmuhammadkhan47@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
