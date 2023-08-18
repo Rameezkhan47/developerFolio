@@ -325,20 +325,20 @@ const achievementSection = {
         }
       ]
     },
-    // {
-    //   title: "The Web Developer's Bootcamp 2022",
-    //   subtitle:
-    //     "A detailed course that covers the basics of wide range of topics related to web development, including HTML, CSS, JavaScript, Bootstrap, DOM manipulation, NodeJS, ExpressJS, MongoDB, RESTful APIs, Authentication and Authorization, and Deployment.",
-    //   image: require("./assets/images/udemy-colt-steele.jpeg"),
-    //   imageAlt: "The Web Developer's Bootcamp",
-    //   footerLink: [
-    //     {
-    //       name: "Certification",
-    //       url: "https://www.udemy.com/certificate/UC-d1287987-5418-412d-a88a-2f523cdb6424/"
-    //     },
+    {
+      title: "The Web Developer's Bootcamp 2022",
+      subtitle:
+        "A detailed course that covers the basics of wide range of topics related to web development, including HTML, CSS, JavaScript, Bootstrap, DOM manipulation, NodeJS, ExpressJS, MongoDB, RESTful APIs, Authentication and Authorization, and Deployment.",
+      image: require("./assets/images/colt-steele.jpg"),
+      imageAlt: "The Web Developer's Bootcamp",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-d1287987-5418-412d-a88a-2f523cdb6424/"
+        },
 
-    //   ]
-    // },
+      ]
+    },
 
 
 
