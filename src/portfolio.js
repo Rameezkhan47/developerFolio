@@ -304,7 +304,7 @@ const achievementSection = {
     {
       title: "MERN Stack Bootcamp by Techlift at Contour Software",
       subtitle: "The three month industry led MERN stack bootcamp covers the basics of web development and the MERN stack through hands-on exercises and projects. It includes introduction to web development, MongoDB, ExpressJS, ReactJS, NodeJS, Authentication and Authorization.",
-      image: require("./assets/images/contour.jpeg"),
+      image: require("./assets/images/techlift_cert.jpg"),
       imageAlt: "Contour Logo",
       footerLink: [
         // {name: "Certification", url: ""},
