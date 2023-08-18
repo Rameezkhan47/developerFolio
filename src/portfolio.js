@@ -273,7 +273,7 @@ const bigProjects = {
     {
       images: [
         require("./assets/images/netflix1.jpg"),
-        require("./assets/images/netflix2.jpg"),
+        require("./assets/images/netflix2.png"),
         require("./assets/images/netflix3.jpg"),
         require("./assets/images/netflix4.jpg"),
         require("./assets/images/netflix5.jpg"),
